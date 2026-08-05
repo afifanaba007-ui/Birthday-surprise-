@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Happy Birthday Tublush ❤️</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="opening">
+
+<h1>A Special Gift For</h1>
+
+<h2>Tublush ❤️</h2>
+
+<p>From Nabu</p>
+
+<button onclick="openGift()">🎁 Open My Gift</button>
+
+</div>
+
+<div class="main" id="main">
+
+<canvas id="confetti"></canvas>
+
+<h1 class="title">
+
+🎉 Happy 19th Birthday Tublush 🎉
+
+</h1>
+
+<div class="slideshow">
+
+<img id="slide" src="images/1.jpg">
+
+</div>
+
+<div class="letter">
+
+<h2>Dear Tublush ❤️</h2>
+
+<p>
+
+Happy 19th Birthday.
+
+Today is one of the most special days because it's the day Allah sent you into this world.
+
+I pray that Allah always keeps you happy, healthy and successful.
+
+I pray that our relationship becomes halal if it is best for us.
+
+I pray that we stay together until our last breath.
+
+I wish that even when you are 100 years old, I will still be beside you, holding your hand and making your birthday special.
+
+Thank you for every smile, every memory and every moment.
+
+You will always be someone very precious to me.
+
+May Allah bless you with endless happiness.
+
+Happy Birthday once again.
+
+❤️
+
+Love,
+
+Nabu
+
+</p>
+
+</div>
+
+<div class="hearts"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
