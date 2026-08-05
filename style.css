@@ -71,3 +71,28 @@ cursor:pointer;
 margin-top:20px;
 
 }
+button:hover{
+transform:scale(1.08);
+transition:.3s;
+}
+
+img{
+transition:.5s;
+}
+
+body{
+background:linear-gradient(135deg,#090909,#1b0033,#000);
+}
+
+h1{
+animation:glow 2s infinite alternate;
+}
+
+@keyframes glow{
+from{
+text-shadow:0 0 10px hotpink;
+}
+to{
+text-shadow:0 0 30px deeppink;
+}
+}
