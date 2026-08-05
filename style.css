@@ -1,91 +1,73 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+body{
 
-<meta charset="UTF-8">
+margin:0;
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+padding:20px;
 
-<title>Happy Birthday Tublush ❤️</title>
+background:#111;
 
-<link rel="stylesheet" href="style.css">
+color:white;
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+text-align:center;
 
-</head>
+font-family:Arial,sans-serif;
 
-<body>
+}
 
-<div class="opening">
+.container{
 
-<h1>A Special Gift For</h1>
+max-width:800px;
 
-<h2>Tublush ❤️</h2>
+margin:auto;
 
-<p>From Nabu</p>
+}
 
-<button onclick="openGift()">🎁 Open My Gift</button>
+h1{
 
-</div>
+color:#ff4d88;
 
-<div class="main" id="main">
+}
 
-<canvas id="confetti"></canvas>
+img{
 
-<h1 class="title">
+width:320px;
 
-🎉 Happy 19th Birthday Tublush 🎉
+max-width:90%;
 
-</h1>
+border-radius:20px;
 
-<div class="slideshow">
+margin-top:20px;
 
-<img id="slide" src="images/1000048755.jpg" id="photo">
+box-shadow:0 0 20px hotpink;
 
-</div>
+}
 
-<div class="letter">
+p{
 
-<h2>Dear Tublush ❤️</h2>
+font-size:20px;
 
-<p>
+line-height:1.8;
 
-Happy 19th Birthday.
+margin-top:20px;
 
-Today is one of the most special days because it's the day Allah sent you into this world.
+}
 
-I pray that Allah always keeps you happy, healthy and successful.
+button{
 
-I pray that our relationship becomes halal if it is best for us.
+padding:12px 25px;
 
-I pray that we stay together until our last breath.
+font-size:18px;
 
-I wish that even when you are 100 years old, I will still be beside you, holding your hand and making your birthday special.
+background:#ff4d88;
 
-Thank you for every smile, every memory and every moment.
+color:white;
 
-You will always be someone very precious to me.
+border:none;
 
-May Allah bless you with endless happiness.
+border-radius:10px;
 
-Happy Birthday once again.
+cursor:pointer;
 
-❤️
+margin-top:20px;
 
-Love,
-
-Nabu
-
-</p>
-
-</div>
-
-<div class="hearts"></div>
-
-</div>
-
-<script src="script.js"></script>
-
-</body>
-
-</html>
+}
