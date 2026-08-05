@@ -37,3 +37,7 @@ current=0;
 document.getElementById("photo").src=photos[current];
 
 }
+// Auto change photo every 3 seconds
+setInterval(() => {
+  nextPhoto();
+}, 3000);
