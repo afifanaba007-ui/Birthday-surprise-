@@ -1,98 +1,116 @@
-body{
-
+*{
 margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
 
-padding:20px;
-
-background:#111;
-
+body{
+background:linear-gradient(135deg,#0f0c29,#302b63,#24243e);
+overflow-x:hidden;
 color:white;
-
 text-align:center;
-
-font-family:Arial,sans-serif;
-
 }
 
-.container{
-
-max-width:800px;
-
-margin:auto;
-
+#loading{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+padding:20px;
 }
 
-h1{
-
-color:#ff4d88;
-
+#loading h1{
+font-size:40px;
+margin-bottom:15px;
 }
 
-img{
-
-width:320px;
-
-max-width:90%;
-
-border-radius:20px;
-
-margin-top:20px;
-
-box-shadow:0 0 20px hotpink;
-
+#loading h2{
+font-size:35px;
+color:#ff69b4;
+margin-bottom:10px;
 }
 
-p{
+#loading p{
+font-size:22px;
+margin-bottom:30px;
+}
 
+#loading button{
+padding:15px 35px;
 font-size:20px;
-
-line-height:1.8;
-
-margin-top:20px;
-
-}
-
-button{
-
-padding:12px 25px;
-
-font-size:18px;
-
 background:#ff4d88;
-
 color:white;
-
 border:none;
-
-border-radius:10px;
-
+border-radius:40px;
 cursor:pointer;
-
-margin-top:20px;
-
-}
-button:hover{
-transform:scale(1.08);
 transition:.3s;
 }
 
-img{
-transition:.5s;
+#loading button:hover{
+transform:scale(1.08);
 }
 
-body{
-background:linear-gradient(135deg,#090909,#1b0033,#000);
+#main{
+display:none;
+padding:30px 15px;
+animation:fade 1s;
 }
 
-h1{
-animation:glow 2s infinite alternate;
-}
-
-@keyframes glow{
+@keyframes fade{
 from{
-text-shadow:0 0 10px hotpink;
+opacity:0;
+transform:translateY(20px);
 }
 to{
-text-shadow:0 0 30px deeppink;
+opacity:1;
+transform:translateY(0);
 }
 }
+
+.title{
+font-size:36px;
+color:#ff69b4;
+margin-bottom:30px;
+text-shadow:0 0 20px hotpink;
+}
+
+.slideshow img{
+width:320px;
+max-width:90%;
+border-radius:20px;
+box-shadow:0 0 25px hotpink;
+transition:.6s;
+}
+
+.letter{
+margin:auto;
+max-width:800px;
+padding:30px;
+line-height:1.9;
+font-size:20px;
+}
+
+.letter h2{
+margin-bottom:20px;
+color:#ff69b4;
+}
+
+button{
+margin-top:30px;
+padding:12px 28px;
+font-size:18px;
+background:#ff4d88;
+color:white;
+border:none;
+border-radius:30px;
+cursor:pointer;
+transition:.3s;
+}
+
+button:hover{
+transform:scale(1.08);
+}
+
+#he
