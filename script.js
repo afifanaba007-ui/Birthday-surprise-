@@ -13,12 +13,12 @@ const photos = [
 
 let current = 0;
 
-document.getElementById("photo").src = photos[current];
-
-function nextPhoto() {
-  current++;
-  if (current >= photos.length) {
-    current = 0;
-  }
-  document.getElementById("photo").src = photos[current];
+function openGift() {
+  document.querySelector(".opening").style.display = "none";
+  document.getElementById("main").style.display = "block";
 }
+
+setInterval(() => {
+  current = (current + 1) % photos.length;
+  document.getElementById("slide").src = photos[current];
+}, 3000);
